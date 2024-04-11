@@ -193,7 +193,7 @@ class StandardPredictor(_AbstractPredictor):
             if dataset.mirror_padding is not None:
                 z_s, y_s, x_s = [_slice_from_pad(p) for p in dataset.mirror_padding]
 
-                logger.info(f'Dataset loaded with mirror padding: {dataset.mirror_padding}. Cropping before saving...')
+                # logger.info(f'Dataset loaded with mirror padding: {dataset.mirror_padding}. Cropping before saving...')
 
                 prediction_map = prediction_map[:, z_s, y_s, x_s]
 

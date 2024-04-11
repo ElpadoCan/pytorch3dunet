@@ -99,7 +99,7 @@ class AbstractHDF5Dataset(ConfigDataset):
         self.weight_slices = slice_builder.weight_slices
 
         self.patch_count = len(self.raw_slices)
-        logger.info(f'Number of patches: {self.patch_count}')
+        # logger.info(f'Number of patches: {self.patch_count}')
 
     @staticmethod
     def fetch_and_check(input_file, internal_path):
