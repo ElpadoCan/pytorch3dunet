@@ -1,6 +1,10 @@
 [![DOI](https://zenodo.org/badge/149826542.svg)](https://zenodo.org/badge/latestdoi/149826542)
 [![Build Status](https://github.com/wolny/pytorch-3dunet/actions/workflows/conda-build.yml/badge.svg)](https://github.com/wolny/pytorch-3dunet/actions/)
 
+# Fork of the pacakge pytorch-3dunet used in the SpotMAX framework
+
+Link to forked project: https://github.com/wolny/pytorch-3dunet
+SpotMAX: https://github.com/SchmollerLab/SpotMAX
 
 # pytorch-3dunet
 
